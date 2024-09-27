@@ -1,13 +1,4 @@
 
-/*=====================
-Title: Main JS File
-Project: Visual Artist Portfolio
-Author: ASV Creations
-Version: 2.0
-Techs: jQuery
-====================*/
-
-
 $(function () {
 
   "use strict";

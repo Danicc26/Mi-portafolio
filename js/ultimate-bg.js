@@ -1,47 +1,19 @@
-/**
- * Created by luis on 12/23/16.
- */
+
 
 (function($, window){
-    /**
-     * This variable contains the state of the YouTube Frame API. Since the function onYouTubeIframeAPIReady is called
-     * only once, we set this variable for videos that added later
-     */
+    
     window.c47YTIframeReady = false;
 
-    /**
-     * An array contains all YouTube players
-     */
     window.c47YTPlayers = [];
-
-    /**
-     * This is the outer class of the video background. The background contains 3 levels of block elements
-     * -- most outer (relative position, z-index -9999)
-     *   -- c37-ultimate-bg (absolute position)
-     *     -- the video iframe/video tag (html5)/img (image) z-index: 0;
-     *     -- the overlay div to cover the video/image to avoid clicking on the video z-index: 1
-     */
     var outerDivClass = 'c47-ultimate-bg';
 
-    /**
-     * This is the exception class. It contains the error message that report back to user when errors occur
-     */
     function C47Exception(message)
     {
         this.name = "UltimateBackgroundException";
         this.message = message;
     }
 
-    /**
-     * This function calculate the optimal width and height of the background div base on the ration 16/9.
-     * -- When the div that needs the background is short (height less than 9), then the background will have the
-     * width of the div and a calculated height based on ration 16/9. Doing so will avoid black border around videos
-     * and image stretches
-     *
-     * -- When the div that needs the background is narrow (width is less than 16), then the background will use
-     * the height of the div and the width is calculated based on the ratio. A part of the the background is cut off
-     * but the video and the image will not be stretched in a different ratio other than the native 16/9
-     */
+
     function perfectDimensions(element, options)
     {
         var width = element.outerWidth();
