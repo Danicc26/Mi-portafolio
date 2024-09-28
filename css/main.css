@@ -146,7 +146,7 @@ button.btn:hover:after, a.btn:hover:after {
 }
 
 /* -------------------------------------------------------
-                   02 - Navbar
+                   Navbar
 -------------------------------------------------------- */
 .navbar {
   position: fixed;
@@ -253,7 +253,7 @@ button.btn:hover:after, a.btn:hover:after {
 }
 
 /* -------------------------------------------------------
-                   03 - Header
+                   Header
 -------------------------------------------------------- */
 .header {
   position: relative;
@@ -347,7 +347,7 @@ button.btn:hover:after, a.btn:hover:after {
 }
 
 /* -------------------------------------------------------
-                   04 - Semblanza
+                   Semblanza
 -------------------------------------------------------- */
 .about {
   position: relative;
@@ -391,7 +391,7 @@ button.btn:hover:after, a.btn:hover:after {
 }
 
 /* -------------------------------------------------------
-                   08 - portfolio
+                   portfolio
 -------------------------------------------------------- */
 .section-title-2 .text h3 {
   color: white; 
@@ -477,7 +477,7 @@ button.btn:hover:after, a.btn:hover:after {
   transition: all 150ms ease-in-out 200ms;
 }
 
-/* Estilo para el texto y título inicialmente ocultos */
+
 .portfolio .gallery .item-img .part-img .overlay-img h4,
 .portfolio .gallery .item-img .part-img .overlay-img h6,
 .portfolio .gallery .item-img .part-img .overlay-img .technique {
@@ -581,7 +581,7 @@ button.btn:hover:after, a.btn:hover:after {
 
 
 /* -------------------------------------------------------
-                   11 - Contact
+                   Contact
 -------------------------------------------------------- */
 .contact {
   position: relative;
@@ -667,7 +667,7 @@ button.btn:hover:after, a.btn:hover:after {
 }
 
 /* -------------------------------------------------------
-                   12 - Footer
+                   Footer
 -------------------------------------------------------- */
 .footer {
   position: relative;
@@ -734,7 +734,7 @@ button.btn:hover:after, a.btn:hover:after {
 }
 
 /* -------------------------------------------------------
-                   13 - Demo-particles
+                    Demo-particles
 -------------------------------------------------------- */
 .particles-demo #particles-js {
   position: absolute;
